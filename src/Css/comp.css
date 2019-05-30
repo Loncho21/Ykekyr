@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    height: 80px;
+    width:100wh; ;
+    background-color: #fb5e17;
+}
+ .header img {
+     margin-top: 3px;
+     margin-left: 3px;
+
+ }
+ .footer{
+     background-color: #fb5e17;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: #fff;
+ }
+ 
+ .art{
+     flex: 1;
+     display: flex;
+     flex-direction: row;
+     height: 100vh;
+ }
+ .slider{
+     width: 100vw;
+ }
+ .slidetext {
+     color: #fff;
+     text-shadow: 2px 2px 4px #000000;
+ }
