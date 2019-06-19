@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link} from "react-router-dom";
+import '@progress/kendo-theme-bootstrap/dist/all.css';
 import '../Css/App.css'
 
 class Registro extends Component {
@@ -10,9 +11,9 @@ class Registro extends Component {
     render() { 
         return ( 
             <div className="App-header">
-            <div className="row example-wrapper">
-            <div className="col-xs-12 col-sm-6  example-col">
-                <div className="card m-card">
+            <div className="row d-flex justify-content-center example-wrapper">
+            <div className="row col-xs-12 col-ms-12 aling-items-center example-col">
+                <div className="ml-4 card m-card">
                     <div className="card-block">
                         <form className="k-form">
                             <fieldset>
@@ -30,10 +31,10 @@ class Registro extends Component {
                                     <span>Genero</span>
 
                                     <input type="radio" name="gender" id="female" className="k-radio" />
-                                    <label className="k-radio-label" for="female">Femenino</label>
+                                    <label className="k-radio-label" htmlFor="female">Femenino</label>
 
                                     <input type="radio" name="gender" id="male" className="k-radio" checked="checked" />
-                                    <label className="k-radio-label" for="male">Masculino</label>
+                                    <label className="k-radio-label" htmlFor="male">Masculino</label>
                                 </div>
                                 <label className="k-form-field">
                                     <span>Email <span className="k-required">*</span></span>
@@ -41,7 +42,7 @@ class Registro extends Component {
                                 </label>
                                 <label className="k-form-field">
                                                     <input type="checkbox" id="auth-2fa" className="k-checkbox" />
-                                                    <label className="k-checkbox-label" for="auth-2fa">Aceptar Terminos y condiciones</label>
+                                                    <label className="k-checkbox-label" htmlFor="auth-2fa">Aceptar Terminos y condiciones</label>
                                                 </label>
                                 <div className="text-right">
                                             <button type="button" className="k-button"><Link to="/login">Cancelar</Link></button> &nbsp;

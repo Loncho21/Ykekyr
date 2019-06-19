@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Slider from "react-slick";
-
+import '../../Css/comp.css'
 
 class SlideRview extends Component {
   
@@ -17,23 +17,23 @@ class SlideRview extends Component {
             
         }
         return ( 
-            <div className="container-fluid shadow-lg mb-5 ">
+            <div className="container col-ms-12 shadow-lg mb-2" >
                 <Slider{...setting}>
-                    <div className="d-flex justify-content-center align-items-center">
-                       <h3 className="position-absolute slidetext">Bienvenidos a Ykeky</h3>
-                       <img src={require('../img/check-class-desk-7103.jpg')}width="auto" height="650" className="rounded img-fluid" alt=""/>
+                    <div className="d-flex justify-content-center align-items-center img-slider">
+                        <div className="position-absolute">
+                        <h4 className="slidetext">Bienvenidos a Ykeky</h4>
+                        <p className="slidetext">El sitio que te ayudara a tomar las mejores desiciones</p>
+                       </div>
                     </div>
-                    <div className="flex-column d-flex justify-content-center align-items-center">
-                        <img src={require('../img/check-class-desk-7103.jpg')}width="auto" height="650" className="rounded img-fluid"alt=""/>
+                    <div className="flex-column d-flex justify-content-center align-items-center img-slider2">
                         <div className="position-absolute d-flex flex-column justify-content-center">
                             <h3 className="slidetext">Planes de vida</h3>
                             <input className="btn btn-primary" type="button" value="Mirar Articulos"/>
                         </div>                        
                     </div>
-                    <div className="d-flex justify-content-center align-items-center">                        
-                        <img src={require('../img/check-class-desk-7103.jpg')}width="auto" height="650" className="rounded img-fluid" alt=""/>
+                    <div className="d-flex justify-content-center align-items-center img-slider3">                        
                         <div className="position-absolute d-flex flex-column justify-content-center">
-                            <h3 className="slidetext">Encuentra Isntituciones cerca de Tí</h3>
+                            <h3 className="slidetext">Encuentra Instituciones cerca de Tí</h3>
                             <input className="btn btn-primary" type="button" value="Encontrar"/>
                         </div>
                     </div>

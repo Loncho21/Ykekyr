@@ -4,7 +4,6 @@
   overflow: hidden;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
 }
 
 
@@ -18,3 +17,7 @@
  .text-log {
    color: white;
  }
+.login-bg{
+  padding: 10px;
+  background-color: black
+}

@@ -2,10 +2,10 @@ import React from 'react';
 import '@progress/kendo-theme-bootstrap/dist/all.css';
 import Home from './components/Home';
 import About from './components/About';
-import Login from './components/Login';
+import Login from './components/Login/Login';
 import Error404 from './components/Error404';
 import Articulo from './components/Articulo';
-import DashBoard from './components/Dashboard';
+import DashBoard from './components/dashboard/Dashboard';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Registro from './components/Registro';
