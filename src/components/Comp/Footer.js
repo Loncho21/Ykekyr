@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({title, subtitle}) => {
     return (
         <div className="footer">
-            <p>Todos los derecho reservado</p>
-            <p><span>Creado por Teamback</span></p>
+            <p>{title}</p>
+            <p><span>{subtitle}</span></p>
         </div>
     );
 }
+
 export default Footer;
