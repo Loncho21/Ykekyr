@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../Comp/Header.js'
-import Card from '../Comp/Card'
 import './../../Css/comp.css'
 
 class DashBoard extends Component {

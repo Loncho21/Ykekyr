@@ -47,7 +47,7 @@ class Home extends Component {
                         <div className="col-6 d-flex shadow flex-column justify-content-center align-items-center">
                             <h4>Descaga nuestra app</h4>
                             <p>Lleva el control de tu futuro a donde sea..</p>
-                            <button className="btn btn-primary"><img src={require('./img/playstore.png')} alt="..." style={{width:'35px'}}/> Disponible en playstore</button>
+                            <button className="btn btn-primary"><img src={require('./img/playstore.png')} alt="..." style={{width:'35px'}}/> Disponible en PlayStore</button>
                         </div>
                         <div className=" col-6 p-4 d-flex justify-content-center">
                             <img className="img-fluid" src={require('./img/app1.png')} alt="..."  style={{height:"500px"}}/>
@@ -55,7 +55,7 @@ class Home extends Component {
 
                     </div>
                
-                <Footer/>
+                <Footer title={"Todos los derechos reservados"} subtitle={"Este sitio fue creado por @TeamBlack"} />
             </div>
          );
     }
